@@ -274,7 +274,7 @@ function calculate_WeightedAverage(submissions)
      delete results[id].totalScore;
      delete results[id].totalPoints;
     }
-    return Object.values(results);
+    return Object.values(results);                          //conversion to array of objects
   }
 
 const result=getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
