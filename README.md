@@ -6,9 +6,11 @@ This project is about Learner Grading Sytem .Grading the individual learners bas
 your program should throw an error, letting the user know that the input was invalid. 
  
 #  courseid_validate(CourseInfo,AssignmentGroup);
-Helper function to validate course id
+Helper function to validate course id.Checks whether course Id  matches the Assignment Group Course Id or not;
 
 #  points_validate(AssignmentGroup);
+
+    
 
 
 #  submission_Datecheck();
