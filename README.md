@@ -9,6 +9,11 @@ your program should throw an error, letting the user know that the input was inv
 Helper function to validate course id.Checks whether course Id  matches the Assignment Group Course Id or not;
 
 #  points_validate(AssignmentGroup);
+Program accounts for potential errors in the data that your program receives.
+check whether Possible points are zero or not  and check for validity of points_possible
+Copies assignments and add all assignment points together
+// Function 2
+
 
     
 

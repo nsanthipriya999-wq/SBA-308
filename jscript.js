@@ -104,7 +104,7 @@ function courseid_validate()
   }
 }
 
-//You should also account for potential errors in the data that your program receives. What if points_possible is 0?
+//Program should also account for potential errors in the data that your program receives. What if points_possible is 0?
   //You cannot divide by zero. What if a value that you are expecting to be a number is instead a string? 
   //function points_validate()
 
