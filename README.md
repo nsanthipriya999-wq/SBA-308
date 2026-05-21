@@ -2,7 +2,7 @@
 
 JavaScript Basics
 
-This project is about Learner Grading Sytem.,grading the individual learners based on the submission date,calculating penalties,calculating weighted Average.
+This project is about Learner Grading Sytem ,grading the individual learners based on the assignment submission date,calculating penalties if late submission ,calculating weighted Average of their scores .
 
 This program's  goal is to analyze and transform this data such that the output of your program is an array of objects, each containing the following information in the following format:
 
@@ -24,7 +24,7 @@ const result = [
 
 
 If an AssignmentGroup does not belong to its course (mismatching course_id), 
-your program should throw an error, letting the user know that the input was invalid. 
+program throws an error, letting the user know that the input was invalid. 
  
 #  courseid_validate(CourseInfo,AssignmentGroup);
 Helper function to validate course id.Checks whether course Id  matches the Assignment Group Course Id or not;
