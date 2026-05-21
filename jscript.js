@@ -199,7 +199,7 @@ function submission_Datecheck()
 }
 
 //Helper Function 4 
-// Loops through each learner submission and calculates the total marks and weighted average.
+// Loops through each learner submission and calculates the total marks and percentage.
 
 function calculate_WeightedAverage(submissions)
 {
