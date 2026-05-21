@@ -1,22 +1,27 @@
 # SBA-308
 
+JavaScript Basics
 
-
-This project is about Learner Grading Sytem .Grading the individual learners based on the submission date,calculating penalties,calculating weighted Average.
+This project is about Learner Grading Sytem.,grading the individual learners based on the submission date,calculating penalties,calculating weighted Average.
 
 This program's  goal is to analyze and transform this data such that the output of your program is an array of objects, each containing the following information in the following format:
 
-{
+const result = [
+    {
+      id: 125,
+      avg: 0.985, // (47 + 150) / (50 + 150)
+      1: 0.94, // 47 / 50
+      2: 1.0 // 150 / 150
+    },
+    {
+      id: 132,
+      avg: 0.82, // (39 + 125) / (50 + 150)
+      1: 0.78, // 39 / 50
+      2: 0.833 // late: (140 - 15) / 150
+    }
+  ];
 
-    // the ID of the learner for which this data has been collected
 
-    "id": number,
-
-    
-
-    "avg": number,
-
-   
 
 If an AssignmentGroup does not belong to its course (mismatching course_id), 
 your program should throw an error, letting the user know that the input was invalid. 
@@ -39,3 +44,6 @@ Main Function
 
 #  getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
 This function displays the result into an array of objects.
+
+
+# Print the result Array
