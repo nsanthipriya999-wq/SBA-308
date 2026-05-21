@@ -146,9 +146,7 @@ function points_validate()
 
 function submission_Datecheck()
 {
-    
-    
-   // let submissions=[];                               //retrieve the record with matching assignment id and do date check
+ //retrieve the record with matching assignment id and do date check
     let submissions=LearnerSubmissions.map(sub =>
        {const assignment=AssignmentGroup.assignments.find(a => a.id === sub.assignment_id);
       
